@@ -26,7 +26,7 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	</body>	
-<h1 class = 'joke'>FOR MORE FEEDS OR INFO'S ABOUT FORD MOTORS! PLEASE CLICK HERE</h1><br/>
-				<button  class = 'btn1'onclick='window.location.href = 'https://media.ford.com/content/fordmedia/fna/us/en/rss.html';'>FORD MOTORS RSS FEED</button>
+		<h1 class = 'joke'>FOR MORE FEEDS OR INFO'S ABOUT FORD MOTORS! PLEASE CLICK HERE</h1><br/>
+		<button  class = 'btn1'onclick='window.location.href = 'https://media.ford.com/content/fordmedia/fna/us/en/rss.html';'>FORD MOTORS RSS FEED</button>
 	</body>
 </html>
