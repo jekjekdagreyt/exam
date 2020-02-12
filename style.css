@@ -1,6 +1,6 @@
 body{
 	background-image:url('hh.jpg');
-	background-size:repeat;
+	background-size:cover;
 	
 }
 .nge{
@@ -25,3 +25,4 @@ body{
 	font-family:Arial;
 	border-radius:10%;
 }
+
