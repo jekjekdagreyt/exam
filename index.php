@@ -6,7 +6,7 @@
 		?>
 		<H1 FORD MOTORS : HISTORY </H1>
 	<?php
-		$content = $object->getElementsByTagName("item");
+		$content = $object->getElementsByTagName("channel");
 	
 		foreach($content as $data){
 				$title = $data->getElementsByTagName("title")->item(0)->nodeValue;
