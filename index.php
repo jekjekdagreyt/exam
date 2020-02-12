@@ -1,8 +1,9 @@
-	<?php
-
+<?php
+			header("Content-type: text/xml");
 		 echo "<?xml version = '1.0' encoding = 'UTF-8'?>
 				<cars>";
-				
+			
+			
 			echo "<item>
 				<name>Ford Motors Company</name><br/>
 				<information>Ford Motor Company is a global company based in Dearborn, Michigan. The company designs, manufactures, markets and services a full line of Ford cars, trucks, SUVs, electrified vehicles and Lincoln luxury vehicles, provides financial services through Ford Motor Credit Company and is pursuing leadership positions in electrification; mobility solutions, including self-driving services; and connected services.  Ford employs approximately 190,000 people worldwide. </information><br/>
