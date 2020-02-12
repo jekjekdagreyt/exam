@@ -14,26 +14,14 @@
 				$desc = $data->getElementsByTagName("description")->item(0)->nodeValue;
 				$guid = $data->getElementsByTagName("guid")->item(0)->nodeValue;
 				$pub = $data->getElementsByTagName("pubDate")->item(0)->nodeValue;
+			echo "$title - $link - $desc - $guid - $pub ";
 	}		
 			?>
 	<head>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	</body>	
-<ul>
-	<h1><li><?php echo $title?></li></h1>
-	
-		<li><?php echo $link?></li>
-	
-	
-		<li><?php echo $desc?></li>
-	
-		<li><?php echo $guid?></li>
-	
-	
-		<li><?php echo $pub?></li>
 
-</ul>
 
 	</body>
 </html>
