@@ -4,18 +4,18 @@ body{
 	
 }
 .nge{
-	font-size: 35px;
+	font-size: 15px;
 	font-family:Arial;
 	color:orange;	
 }
 .meow{
-	font-size:20px;
+	font-size:10px;
 	font-family:Arial;
 	color:white;
 
 }
 .joke{
-	font-size:50px;
+	font-size:10px;
 	font-family :Harlow Solid Regular;
 	color: white;
 }
@@ -23,4 +23,5 @@ body{
 	background-color:red;
 	color:white;
 	font-family:Arial;
+	border-radius:10%;
 }
