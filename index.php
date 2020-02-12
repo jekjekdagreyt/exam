@@ -3,9 +3,7 @@
 			<?php
 			$object = new DOMDocument();
 			$object->load("https://media.ford.com/content/fordmedia/fna/us/en/news.history.rss");
-		?>
-		<H1 FORD MOTORS : HISTORY </H1>
-	<?php
+			 
 		$content = $object->getElementsByTagName("channel");
 	
 		foreach($content as $data){
