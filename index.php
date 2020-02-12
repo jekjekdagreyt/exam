@@ -15,5 +15,6 @@ The changes come as Ford is moving with urgency to fully integrate and accelerat
 
 “Jim Farley is the right person to take on this important new role,” Hackett said. “Jim’s passion for great vehicles and his intense drive for results are well known. He also has developed into a transformational leader with the imagination and foresight to help lead Ford into the future.” </news><br/>
 				<url><a href='https://media.ford.com/content/fordmedia/fna/us/en/news.html/' target = '_blank'>Ford Motors Company</a></url>
-			</item>"			
+			</item>";
+			echo "</cars>";
 	?>
