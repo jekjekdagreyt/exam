@@ -3,23 +3,24 @@ body{
 	background-size:repeat;
 	
 }
-
-h2 {
-	font-family: times new roman;
-	font-size: 30px;
-	text-align: center;
-}
-
-h1 {
+.nge{
 	font-size: 35px;
-	font: bold;
-}
-ul{
-	font-size: 20px;
 	font-family:Arial;
-		
+	color:orange;	
+}
+.meow{
+	font-size:20px;
+	font-family:Arial;
+	color:white;
+
 }
 .joke{
 	font-size:50px;
 	font-family :Harlow Solid Regular;
+	color: white;
+}
+.btn1{
+	background-color:red;
+	color:white;
+	font-family:Arial;
 }
