@@ -27,6 +27,6 @@
 	</head>
 	</body>	
 		<h1 class = 'joke'>FOR MORE FEEDS OR INFO'S ABOUT FORD MOTORS! PLEASE CLICK HERE</h1><br/>
-		<a href="https://media.ford.com/content/fordmedia/fna/us/en/rss.html" target="_blank">Visit for job opportunities</a>
+		<a href="https://media.ford.com/content/fordmedia/fna/us/en/rss.html" class = "tote" target="_blank">FORD MOTORS RSS FEEDS!</a>
 	</body>
 </html>
