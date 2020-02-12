@@ -15,9 +15,9 @@
 			echo "<ul>
 			<h1><li>'$title'</li></h1></ul>
 				<ul><br>
-				<li><a href = ''>$link</a></li>
+				<li><a href = '$link'>$link</a></li>
 				<li>$desc</li>
-				<li><a href = ''>$guid</a></li>
+				<li><a href = '$guid'>$guid</a></li>
 				<li>$pub</li>
 				</ul>";
 	}		
