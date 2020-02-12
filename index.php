@@ -12,9 +12,9 @@
 				$desc = $data->getElementsByTagName("description")->item(0)->nodeValue;
 				$guid = $data->getElementsByTagName("guid")->item(0)->nodeValue;
 				$pub = $data->getElementsByTagName("pubDate")->item(0)->nodeValue;
-			echo "<ul>
+			echo "<ul class = 'nge'>
 			<h1><li>'$title'</li></h1></ul>
-				<ul>
+				<ul class = 'meow'>
 				<li><a href = '$link' target = '_blank'>$link</a></li>
 				<li>$desc</li>
 				<li><a href = '$guid' target = '_blank'>$guid</a></li>
