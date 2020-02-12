@@ -12,18 +12,18 @@
 				$desc = $data->getElementsByTagName("description")->item(0)->nodeValue;
 				$guid = $data->getElementsByTagName("guid")->item(0)->nodeValue;
 				$pub = $data->getElementsByTagName("pubDate")->item(0)->nodeValue;
-			echo "'$title' <br/>";
-			echo "'$link' <br/>";
-			echo "'$desc' <br/>";
-			echo "'$guid' <br/>";
-			echo "'$pub' <br/>";
+			echo "<ul>
+			<h1><li>'$title'</li></h1> <br/>
+				<li>'$link'</li>
+				<li>'$desc'</li>
+				<li>'$guid'</li>
+				<li>'$pub'</li>
+				</ul>";
 	}		
 			?>
 	<head>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	</body>	
-
-
 	</body>
 </html>
