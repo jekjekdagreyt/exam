@@ -15,9 +15,9 @@
 			echo "<div><ul class = 'nge'>
 			<h1><li>'$title'</li></h1></ul>
 				<ul class = 'meow'>
-				<li><a href = '$link' target = '_blank'>$link</a></li>
+				<li><a href = '$link' target = '_blank' class = 'anchor'>$link</a></li>
 				<li>$desc</li>
-				<li><a href = '$guid' target = '_blank'>$guid</a></li>
+				<li><a href = '$guid' target = '_blank' class = 'anchor'>$guid</a></li>
 				<li>$pub</li>
 				</ul></div>";
 	}		
@@ -27,6 +27,6 @@
 	</head>
 	</body>	
 		<h1 class = 'joke'>FOR MORE FEEDS OR INFO'S ABOUT FORD MOTORS! PLEASE CLICK HERE</h1><br/>
-		<button  class = 'btn1'onclick='window.location.href = 'https://media.ford.com/content/fordmedia/fna/us/en/rss.html';'>FORD MOTORS RSS FEED</button>
+		<a href="https://media.ford.com/content/fordmedia/fna/us/en/rss.html" target="_blank">Visit for job opportunities</a>
 	</body>
 </html>
