@@ -24,18 +24,17 @@
 	</body>	
 <ul>
 	<h1><li><?php echo $title?></li></h1>
-	<ul>
+	
 		<li><?php echo $link?></li>
-	</ul>
-	<ul>
+	
+	
 		<li><?php echo $desc?></li>
-	</ul>
-	<ul>
+	
 		<li><?php echo $guid?></li>
-	</ul>
-	<ul>
+	
+	
 		<li><?php echo $pub?></li>
-	</ul>
+
 </ul>
 
 	</body>
