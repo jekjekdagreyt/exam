@@ -14,10 +14,10 @@
 				$pub = $data->getElementsByTagName("pubDate")->item(0)->nodeValue;
 			echo "<ul>
 			<h1><li>'$title'</li></h1></ul>
-				<ul><br>
-				<li><a href = '$link'>$link</a></li>
+				<ul>
+				<li><a href = '$link' target = '_blank'>$link</a></li>
 				<li>$desc</li>
-				<li><a href = '$guid'>$guid</a></li>
+				<li><a href = '$guid' target = '_blank'>$guid</a></li>
 				<li>$pub</li>
 				</ul>";
 	}		
