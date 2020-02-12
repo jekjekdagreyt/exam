@@ -13,7 +13,8 @@
 				$guid = $data->getElementsByTagName("guid")->item(0)->nodeValue;
 				$pub = $data->getElementsByTagName("pubDate")->item(0)->nodeValue;
 			echo "<ul>
-			<h1><li>'$title'</li></h1> <br/>
+			<h1><li>'$title'</li></h1></ul>
+				<ul><br>
 				<li>'$link'</li>
 				<li>'$desc'</li>
 				<li>'$guid'</li>
