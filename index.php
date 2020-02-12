@@ -20,6 +20,10 @@
 				<li><a href = '$guid' target = '_blank'>$guid</a></li>
 				<li>$pub</li>
 				</ul>";
+			echo "
+				<h1 class = 'joke'>FOR MORE FEEDS OR INFO'S ABOUT FORD MOTORS! PLEASE CLICK HERE</h1><br/>
+				<button  class = 'btn1'onclick='window.location.href = 'https://media.ford.com/content/fordmedia/fna/us/en/rss.html';'>FORD MOTORS RSS FEED</button>
+			";
 	}		
 			?>
 	<head>
