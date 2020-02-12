@@ -15,10 +15,10 @@
 			echo "<ul>
 			<h1><li>'$title'</li></h1></ul>
 				<ul><br>
-				<li>'$link'</li>
-				<li>'$desc'</li>
-				<li>'$guid'</li>
-				<li>'$pub'</li>
+				<li><a href = ''>$link</a></li>
+				<li>$desc</li>
+				<li><a href = ''>$guid</a></li>
+				<li>$pub</li>
 				</ul>";
 	}		
 			?>
